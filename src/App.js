@@ -1,15 +1,15 @@
-
-import './App.css';
+import "./styles/App.css";
+import Header from "./components/Header.js";
+import Main from "./components/Main.js";
+import Footer from "./components/Footer.js";
 
 function App() {
-  const nome = "Andressa";
   return (
     <div className="App">
-      <header className="App-header">
-      <h1>Hello {nome}!</h1>
-      </header>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
-
 export default App;
